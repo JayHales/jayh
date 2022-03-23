@@ -1,0 +1,15 @@
+{
+  "name": "react-handy-functions",
+  "version": "1.0.0",
+  "description": "A library to help with React tasks like configuration and creating classes.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jay Hales",
+  "license": "ISC"
+}
