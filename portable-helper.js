@@ -37,16 +37,13 @@ async function replaceTsConfig() {
 }
 
 function getFile(url) {
-    return new Promise((resolve, reject) => {
-       
+    return new Promise((resolve, reject) => {       
         get(url, (res) => {
 
             let data = '';
 
             res.on('data', (d) => {
-
                 data += d;
-
             });
 
             res.on('end', () => {
@@ -56,9 +53,7 @@ function getFile(url) {
             res.on('error', (e) => {
                 reject(e);
             });
-
         });
-
     });
 }
 

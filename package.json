@@ -1,12 +1,28 @@
 {
   "name": "jayh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A library to set things up just the way I like.",
   "main": "index.js",
-  "bin": "portable-helper.js",
+  "bin": {
+    "jayh": "portable-helper.js"
+  },
   "keywords": [
-    "helper", "typescript", "react", "express"
+    "helper",
+    "typescript",
+    "react",
+    "express"
   ],
   "author": "Jay Hales",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayHales/React-Component-Create.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JayHales/React-Component-Create/issues"
+  },
+  "homepage": "https://github.com/JayHales/React-Component-Create#readme"
 }
