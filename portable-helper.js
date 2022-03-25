@@ -13,7 +13,6 @@ switch (functionName) {
     case "--crc": // Create react component
         createClass(arguments[0]);
         break;
-
     case "--rtc": // Replace TSConfig
         replaceTsConfig();
 }
