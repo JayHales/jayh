@@ -1,14 +1,11 @@
 {
-  "name": "react-handy-functions",
-  "version": "1.0.0",
-  "description": "A library to help with React tasks like configuration and creating classes.",
+  "name": "jayh",
+  "version": "1.0.4",
+  "description": "A library to set things up just the way I like.",
   "main": "index.js",
-  "bin": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": "portable-helper.js",
   "keywords": [
-    "react"
+    "helper", "typescript", "react", "express"
   ],
   "author": "Jay Hales",
   "license": "ISC"
